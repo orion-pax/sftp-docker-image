@@ -1,6 +1,4 @@
 FROM alpine:3.12
-LABEL maintainer="<email_here>"
-LABEL docker-id="docker_id"
 
 RUN apk update && apk add --no-cache openssh
 RUN mkdir /var/run/sshd
