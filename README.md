@@ -24,7 +24,7 @@ docker image build -t <any_fancy_image_name_of_your_choice_here> .
 
 ## Usage
 
-The container runs with a default user: **foo** and the default password: **pass** which will be used to connect to the container via ssh in a terminal or via an sftp client like FileZilla. However, you can change this by modifying the line below to suit your preference. **N.B:** The format is <username>:<password> 
+The container runs with a default user: **foo** and the default password: **pass** which will be used to connect to the container via ssh in a terminal or via an sftp client like FileZilla. However, you can change this by modifying the line below to suit your preference. **N.B:** The format is username:password 
 
 ```
 RUN echo 'foo:pass' | chpasswd
